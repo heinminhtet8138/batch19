@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h3>Student Registration</h3>
+
+	<fieldset>
+		<legend>Student Registration</legend>
+		<form method="GET" action="test.html">
+			<label for="name">Name</label>
+			<input type="text" name="stu_name" id="name" required="" value="Mg Mg" autofocus="" readonly="">
+			<br><br>
+			<label for="email">Email</label>
+			<input type="email" name="stu_email" id="email" disabled="" value="mgmg@gmail.com">
+			<br><br>
+			<label for="password">Password</label>
+			<input type="password" name="stu_pass" id="password">
+			<br><br>
+			<label for="phone">Phone</label>
+			<input type="number" name="stu_phone" id="phone" placeholder="Enter phone number">
+			<br><br>
+			<label for="passport">Passport</label>
+			<input type="file" name="stu_passport" id="passport" accept="image/*">
+			<br><br>
+			<label>Year</label>
+			<select name="stu_year">
+				<option>First Year</option>
+				<option>Second Year</option>
+				<option>Third Year</option>
+			</select>
+			<br><br>
+			<label>Hobby</label>
+			<br>
+			<input type="checkbox" name="travel" id="travel"><label for="travel">Travel</label>
+			<input type="checkbox" name="watching" id="watching"><label for="watching">Watching TV</label>
+			<input type="checkbox" name="reading" id="reading"><label for="reading">Reading</label>
+			<br><br>
+			<label>Gender</label>
+			<input type="radio" name="gender" id="male"><label for="male">Male</label>
+			<input type="radio" name="gender" id="female"><label for="female">Female</label>
+			<br><br>
+			<label for="address">Address</label>
+			<textarea name="address" id="address" rows="10" cols="20"></textarea>
+			<br><br>
+			<button type="submit">Submit</button>
+		</form>
+	</fieldset>
+
+</body>
+</html>
